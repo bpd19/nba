@@ -7,7 +7,7 @@ const Nba_score=({score})=>{
   return(
     <div className='score'>
         <div>
-          Name 
+          <div>Name</div> 
           <div>Final score</div>
           <div>Q1</div>
           <div>Q2</div>
@@ -17,11 +17,19 @@ const Nba_score=({score})=>{
         <div className='home'>
           <div>{score.homeTeam.name}</div>
           <div>{score.homeTeam.score.regular}</div>
+          <div>{score.homeTeam.score.quarter1}</div>
+          <div>{score.homeTeam.score.quarter2}</div>
+          <div>{score.homeTeam.score.quarter3}</div>
+          <div>{score.homeTeam.score.quarter4}</div>
 
         </div>
         <div className='away'>
           <div>{score.awayTeam.name}</div>
           <div>{score.awayTeam.score.regular}</div>
+          <div>{score.awayTeam.score.quarter1}</div>
+          <div>{score.awayTeam.score.quarter2}</div>
+          <div>{score.awayTeam.score.quarter3}</div>
+          <div>{score.awayTeam.score.quarter4}</div>
         </div>
         
     </div>
