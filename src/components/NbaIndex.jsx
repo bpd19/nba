@@ -6,10 +6,23 @@ import './NbaIndex.css';
 const Nba_score=({score})=>{
   return(
     <div className='score'>
-        <div className='home'>{score.homeTeam.name}</div>
-        <div className='home'>{score.homeTeam.score.regular}</div>
-        <div className='away'>{score.awayTeam.name}</div>
-        <div className='away'>{score.awayTeam.score.regular}</div>
+        <div>
+          Name 
+          <div>Final score</div>
+          <div>Q1</div>
+          <div>Q2</div>
+          <div>Q3</div>
+          <div>Q4</div>
+        </div>
+        <div className='home'>
+          <div>{score.homeTeam.name}</div>
+          <div>{score.homeTeam.score.regular}</div>
+
+        </div>
+        <div className='away'>
+          <div>{score.awayTeam.name}</div>
+          <div>{score.awayTeam.score.regular}</div>
+        </div>
         
     </div>
   );
