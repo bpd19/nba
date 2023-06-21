@@ -5,6 +5,9 @@ import './NbaIndex.css';
 
 const Nba_score=({score})=>{
   return(
+    <div className='first'>
+      {score.tournament.name}, {score.round.name}
+      <p>{score.date}</p>
     <div className='score'>
         <div>
           <div>Name</div> 
@@ -32,6 +35,7 @@ const Nba_score=({score})=>{
           <div>{score.awayTeam.score.quarter4}</div>
         </div>
         
+    </div>
     </div>
   );
 }
@@ -63,7 +67,8 @@ function NbaIndex() {
   });
 
   return (
-    <div>NbaIndex
+    <div>
+      
       <Nba_scoreList scores={score}/>
     </div>
   )
