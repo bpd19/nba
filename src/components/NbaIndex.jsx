@@ -9,7 +9,7 @@ const Nba_score=({score})=>{
       {score.tournament.name}, {score.round.name}
       <p>{score.date}</p>
     <div className='score'>
-        <div>
+        <div className='names'>
           <div>Name</div> 
           <div>Final score</div>
           <div>Q1</div>
