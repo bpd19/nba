@@ -9,8 +9,8 @@ const Nba_points =({point })=>{
                 <div className='table'>Name</div>
                 <div className='table'>Country</div>
                 <div className='table'>team</div>
-                <div className='table'>1 pointers per game</div>
-                <div className='table'>3 pointers per game</div>
+                <div className='table'>1 pointers per game (accuracy)</div>
+                <div className='table'>3 pointers per game (accuracy)</div>
                 <div className='table'>points per game</div>
             </div>
             <div className='players'>
@@ -45,8 +45,8 @@ const Nba_pointsList =({points})=>{
   }
 
 function Nba_point_leaderboard() {
-    const searchRef =useRef();
-    const [point, setPoint]=useState(null);
+        const searchRef =useRef();
+        const [point, setPoint]=useState(null);
 
   useEffect(()=>{
     loadNBALeaderboard().then((point)=> setPoint(point))

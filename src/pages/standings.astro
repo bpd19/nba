@@ -1,0 +1,10 @@
+---
+import Nba_point_leaderboard from "../components/Nba_point_leaderboard.jsx";
+import NbaLayout from "../layouts/NbaLayout.astro";
+import Nba_standings from "../components/Nba_standings.jsx";
+import "../global.css"
+---
+
+<NbaLayout>
+    <Nba_standings client:load/>
+</NbaLayout>

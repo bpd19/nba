@@ -1,6 +1,7 @@
 //This is from rapidapi.com to get an api from the nba
 //and get the json
 
+const url3 = 'https://basketball-data.p.rapidapi.com/tournament/standings?tournamentId=89';
 const url2 ="https://basketball-data.p.rapidapi.com/tournament/leaderboard/rebound";
 const url1="https://basketball-data.p.rapidapi.com/tournament/leaderboard/point";
 const url = 'https://basketball-data.p.rapidapi.com/match/list/results?date=29%2F01%2F2021';
@@ -29,6 +30,13 @@ export const loadNBARebound =async () => {
     const nba = await response.json();
     return nba;
 }
+
+export const loadNBAStandings =async () => {
+    const response = await fetch(url3, options);
+    const nba = await response.json();
+    return nba;
+}
+
 
 
 //  try {

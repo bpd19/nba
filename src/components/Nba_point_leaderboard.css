@@ -7,13 +7,15 @@
     display: flex;
     padding: 0.2em;
     color: rgb(0, 0, 118);
+    border-radius: 15px;
 }
 .leader div{
     flex: 1;
     
 }
+
 .leader .table{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(63, 63, 63);
     
 }
 

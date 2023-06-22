@@ -1,0 +1,39 @@
+
+
+.first:first-child{
+    margin-top: 10px;
+}
+.first{
+    margin-top: 30px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgba(250, 235, 215, 0.541);
+}
+
+.standings{
+    display: flex;
+    font-family: sans-serif;
+    font-size: 1em;
+    padding: 0.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(0, 0, 118);
+    background-color: rgba(255, 0, 0, 0.279);
+}
+.standings div{
+    flex: 1;
+}
+
+
+.tag{
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.table1{
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}

@@ -6,12 +6,13 @@
     display: flex;
     padding: 0.2em;
     color: rgb(0, 0, 118);
+    border-radius: 15px;
 }
 .leaders div{
     flex: 1;
     
 }
 .leaders .tables{
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(63, 63, 63);
     
 }

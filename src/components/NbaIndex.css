@@ -18,7 +18,6 @@
     overflow: hidden;
     text-overflow: ellipsis;
     color: rgb(0, 0, 118);
-    border-radius: 1%;
 }
 .score div{
     flex: 1;
@@ -29,7 +28,7 @@
 .home{
     background-color: rgba(173, 216, 230, 0.715);
     text-align: center;
-    border-radius: 5%; 
+    border-radius: 30px; 
    
 }
 .home div{
