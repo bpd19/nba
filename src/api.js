@@ -2,6 +2,7 @@
 //and get the json
 
 
+const url1="https://basketball-data.p.rapidapi.com/tournament/leaderboard/point";
 const url = 'https://basketball-data.p.rapidapi.com/match/list/results?date=29%2F01%2F2021';
 const options = {
 	method: 'GET',
@@ -17,8 +18,14 @@ export const loadNBA = async () => {
     return nba;
 }
 
+export const loadNBALeaderboard =async () => {
+    const response = await fetch(url1, options);
+    const nba = await response.json();
+    return nba;
+}
+
  try {
- 	const response = await fetch(url, options);
+ 	const response = await fetch(url1, options);
  	const result = await response.text();
  	console.log(result);
  } catch (error) {
