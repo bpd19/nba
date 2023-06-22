@@ -26,7 +26,10 @@
 .standings div{
     flex: 1;
 }
+.positions{
+    margin-right: 10px;
 
+}
 
 .tag{
     margin-bottom: 20px;
