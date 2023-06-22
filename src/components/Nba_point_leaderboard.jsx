@@ -46,7 +46,7 @@ const Nba_pointsList =({points})=>{
 
 function Nba_point_leaderboard() {
     const searchRef =useRef();
-  const [point, setPoint]=useState(null);
+    const [point, setPoint]=useState(null);
 
   useEffect(()=>{
     loadNBALeaderboard().then((point)=> setPoint(point))

@@ -1,6 +1,5 @@
-
-.leader{
-    background-color: rgba(255, 148, 148, 0.664);
+.leaders{
+    background-color: rgba(148, 255, 194, 0.671);
     margin-top: 20px;
     font-family:'Segoe UI';
     font-size: 1.3em;
@@ -8,13 +7,11 @@
     padding: 0.2em;
     color: rgb(0, 0, 118);
 }
-.leader div{
+.leaders div{
     flex: 1;
     
 }
-.leader .table{
+.leaders .tables{
     border-bottom: 1px solid grey;
     
 }
-
-

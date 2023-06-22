@@ -6,7 +6,7 @@ import './NbaIndex.css';
 const Nba_score=({score})=>{
   return(
     <div className='first'>
-      {score.tournament.name}, {score.round.name}
+      <p>{score.tournament.name}, {score.round.name}</p>
       <p>{score.date}</p>
     <div className='score'>
         <div className='names'>

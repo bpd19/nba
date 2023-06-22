@@ -1,9 +1,19 @@
 ---
 import Nba_point_leaderboard from "../components/Nba_point_leaderboard.jsx";
 import NbaLayout from "../layouts/NbaLayout.astro";
+import Nba_rebound from "../components/Nba_rebound.jsx";
 import "../global.css"
 ---
 
 <NbaLayout>
+    <h3>Point Leaderboard</h3>
     <Nba_point_leaderboard client:load/>
+    <h3>Rebound Leaderboard</h3>
+    <Nba_rebound client:load/>
 </NbaLayout>
+<style>
+    h3{
+        color: rgb(0, 35, 112);
+        font-size: 2em;
+    }
+</style>

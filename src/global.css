@@ -1,8 +1,9 @@
 body {
     margin: 0;
     font-family: sans-serif;
-    background-image: "";
+    background-image: url("https://media.istockphoto.com/id/499648800/photo/basketball-court-illustration.jpg?s=612x612&w=0&k=20&c=_WY19ly8mz7l12aCQYU1SBGShsdH57X3C3_uRJzrl7Y=");
   }
   main {
     margin: 1.5em;
+    
   }
